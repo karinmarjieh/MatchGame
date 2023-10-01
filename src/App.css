@@ -1,6 +1,5 @@
-
-/* App.css */
 .app-container {
+  height: 100vh;
   text-align: center;
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -13,44 +12,44 @@ h1 {
 
 .score {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 20px 0;
 }
 
-/* .score p {
-  font-size: 24px;
-} */
 .score p {
   font-size: 24px;
   display: flex;
-  align-items: center; /* Align text and icons vertically */
+  align-items: center; 
 }
 
 .score p:nth-child(1) svg {
-  margin-right: 8px; /* Add some space between the icon and text */
-  font-size: 28px; /* Adjust the icon size as desired */
-  fill: green; /* Set the color for the first icon to green */
+  margin-right: 8px;
+  font-size: 28px;
+  fill: green; 
 }
 
 .score p:nth-child(2) svg {
-  margin-right: 8px; /* Add some space between the icon and text */
-  font-size: 28px; /* Adjust the icon size as desired */
-  fill: red; /* Set the color for the second icon to red */
+  margin-right: 8px; 
+  font-size: 28px;
+  fill: red;
 }
 
 .image-container {
-  max-width: 50%;
-  height: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
   margin: 16px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .question-container {
   margin: 20px 0;
 }
+
 .question-container p {
-  font-size: 20px; /* Adjust the font size as desired */
+  font-size: 20px; 
 }
 
 .card {
